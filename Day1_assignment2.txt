@@ -1,0 +1,12 @@
+1. How to display images in title bar?
+Answer-- <head>
+    	    <title>Document</title>
+    	    <link rel="icon" type="images/x-icon" href="https://www.w3docs.com/favicon.ico" />
+	</head>
+
+2. What is the purpose of "alt" attribute of img tag?
+Answer-- The required alt attribute specifies an alternate text for an image, if the image cannot be displayed.
+
+3. Why do we use tbody, thead, tfoot tags?
+Answer-- The <thead>, <tbody> and <tfoot> elements are used to specify each part of a table (header, body, footer).
+         Browsers can use these elements to enable scrolling of the table body independently of the header and footer. Also, when printing a large table that spans multiple pages, these elements can enable the table header and footer to be printed at the top and bottom of each page.
