@@ -1,0 +1,21 @@
+1.  What is JSON?
+Answer-- JSON is an acronym for JavaScript Object Notation, is an open standard format, which is lightweight and text-based. It is a language-independent data format and supports almost every kind of language, framework, and library.
+In JSON, data is represented in key-value pairs, and curly braces hold objects, where a colon is followed after each name. The comma is used to separate key-value pairs. Square brackets are used to hold arrays, where each value is comma-separated.
+Example: {"name" : "Jack", "employeeid" : 001, "present" : false}  
+
+2.   What is HTTP Status codes?
+Answer-- An HTTP status code is a server response to a browser’s request. When you visit a website, your browser sends a request to the site’s server, and the server then responds to the browser’s request with a three-digit code: the HTTP status code.
+Types of status codes are:
+1xxs – Informational responses: 
+2xxs – Success! The request was successfully completed and the server gave the browser the expected response.
+3xxs – Redirection: You got redirected somewhere else. The request was received, but there’s a redirect of some kind.
+4xxs – Client errors: Page not found. The site or page couldn’t be reached. 
+5xxs – Server errors: Failure. A valid request was made by the client but the server failed to complete the request.
+
+3.   What is the meaning of 500 Status codes?
+Answer-- The HTTP 500 Internal Server Error server error response codes indicate that the server encountered an unexpected condition that prevented it from fulfilling the request.
+
+4.   What is No-Sql Databases?
+Answer-- NoSQL Database is used to refer a non-SQL or non relational database. It provides a mechanism for storage and retrieval of data other than tabular relations model used in relational databases. NoSQL database doesn't use tables for storing data. It is generally used to store big data and real-time web applications.
+It supports query language, fast performance and horizontal scalability.
+
