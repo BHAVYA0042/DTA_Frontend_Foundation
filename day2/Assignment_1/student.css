@@ -1,0 +1,48 @@
+
+.info::first-letter{
+    color: red;
+    font-size: 60px;
+}
+h2{
+    background-color: #F48484;
+    color: white;
+    border: 1px solid blue;
+    padding: 0.5% 1%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+    margin-top: 50px;
+}
+thead tr{
+    background-color: green;
+    color: white;
+    text-decoration: underline;
+}
+.odd{
+    background-color: lightgray;
+}
+.odd td{
+    border-bottom: 1px solid black;
+}
+.odd:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.even td{
+    border-bottom: 1px solid green;
+}
+
+.even:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+/* tbody tr:nth-child(odd){
+    background-color: lightgray;
+} */
+a{
+    text-align: center;
+    margin-top: 40px;
+}

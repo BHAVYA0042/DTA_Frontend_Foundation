@@ -1,0 +1,40 @@
+body{
+    /* padding: 3%; */
+    text-align: center;
+}
+.item_sec{
+    margin-top:40px;
+}
+.item{
+    display: inline-block;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 1% 2%;
+    margin: 0 20px 20px 0;
+}
+.item h3{
+    color:blue;
+    text-decoration: underline;
+}
+.item img{
+    margin-bottom: 10px;
+}
+span{
+    display: block;
+}
+/* span:first-of-type{
+    color:red;
+}
+span:last-of-type{
+    color:blue;
+} */
+.unit{
+    color:red;
+    
+}
+.unit bold{
+    text-decoration: line-through;
+}
+.discount{
+    color: blue;
+}

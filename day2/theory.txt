@@ -1,0 +1,15 @@
+	Q:  What is difference between get/post methods in form tag?
+	Answer:get method is used to only recieve data and not change the data, not secure as any get request is vible in querystring.
+POST method is used to send data to server. secure beacuse data is in body of request and not in url querystring.
+
+	Q:  What is querystring? 
+	Answer: that portion of the url which passess data to web application or backend. Whatever is written after '?' is query string.
+
+	Q :  Why do we use  ~  and >  symbols in css selectors?	
+	Answer: ~ stands for general sibling and any tag say <p> whhich is a sibling of any other tag say <div>, you can access p by div~p.
+ > stands for direct child. for any parent tag <div> direct child tag <p> can be accessed by div>p.
+
+div ~ p  general sibling
+div >  p direct child
+div   p   any child 
+div,  p   multiple tags
