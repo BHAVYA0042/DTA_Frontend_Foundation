@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pizza.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrap">
+        <form action="payment.html" id="pizzaForm">
+            <header>
+                <p>WELCOME TO ITALIAN PIZZA!!</p>
+                <small>We deliver pizza in 40 minutes max. If not- Pizza's on us!</small>
+            </header>
+            <div class="formBody">
+                <section>
+                    <label for="">Email</label><br/>
+                    <input type="email" name="mail">
+                </section>
+                <section>
+                    <label for="">Phone</label><br/>
+                    <input type="text" name="phoneArea" placeholder="Area" size="10">
+                    <input type="text" name="phoneLocal" placeholder="Local" size="10">
+                    <input type="text" name="phoneLocal2" placeholder="Local" size="10">
+                </section>
+                <section>
+                    <label for="slice">Number of Slices</label><br/>
+                    <input type="number" name="slice">
+                </section>
+                <section>
+                    <label for="">Pizza Size</label><br/>
+                    <input type="radio" name="size" value="8" size="40"/>
+                    <label for="size">8-inch</label>
+                    <input type="radio" name="size" value="10"/>
+                    <label for="size">10-inch</label>
+                    <input type="radio" name="size" value="12"/>
+                    <label for="size">12-inch</label>
+                    <input type="radio" name="size" value="14"/>
+                    <label for="size">14-inch</label>
+                </section>
+                <section>
+                    <label for="">Toppings</label><br/>
+                    <input type="checkbox" name="topping" value="Pepperoni"/>
+                    <label for="topping">Pepperoni</label>
+                    <input type="checkbox" name="topping" value="Onions"/>
+                    <label for="topping">Onions</label>
+                    <input type="checkbox" name="topping" value="Mushrooms"/>
+                    <label for="topping">Mushrooms</label>
+                    <input type="checkbox" name="topping" value="Sausage"/>
+                    <label for="topping">Sausage</label>
+                </section>
+
+                <section>
+                    <input type="checkbox" name="agree" required>
+                    <label for="agree">I agree to the <span>terms and conditions</span></label>
+                </section>
+            </div>
+        </form>
+        <button form = "pizzaForm">ORDER NOW</button>
+    </div>
+    
+</body>
+</html>

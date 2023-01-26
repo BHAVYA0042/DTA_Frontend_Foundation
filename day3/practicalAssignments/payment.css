@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    margin-bottom: 8px;
+}
+label{
+    margin-bottom: 5px;
+}
+small{
+    font-size: 12px;
+}
+.wrap{
+    width: 40%;
+    margin: 5% auto;
+}
+form{
+    border:1px solid black;
+    
+}
+.rest{
+    margin: 1% 2% 1% 5%;
+}
+.top{
+    background-color:#93C6E7;
+    color: white;
+    padding: 3% 2%;
+}
+form img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 12px;
+}
+.expiry >*{
+    display: inline-block;
+    width: 45%;
+}
+.first{
+    /* margin-right: 20%; */
+}
+.second >*{
+    display: inline-block;
+    width: 45%;
+}
+.second small{
+    width:110px;
+}
+.bottom{
+    background-color:lightgray;
+    color:gray;
+    padding: 3% 2%;
+    text-align: center;
+}
+button{
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 180px;
+    
+    padding: 2%;
+    color: white;
+    font-weight: 400;
+    background-color:orangered ;
+    border: none;
+    border-radius: 5px;
+}

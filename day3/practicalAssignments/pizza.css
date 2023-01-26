@@ -1,0 +1,57 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+input:not([type="radio"],[type="checkbox"]){
+    height: 25px;
+    border: 1px solid gray;
+    padding-left:2%;
+    border-radius: 4px;
+}
+input[type="radio"],input[type="checkbox"]{
+    height: 18px;
+    width: 18px;
+    vertical-align: bottom;
+
+} 
+header p{
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+small{
+    font-size: 14px;
+}
+.wrap{
+    width: 35%;
+    margin:2% auto;
+    padding: 2% 3%;
+    background-image: url("images/old-brown-wooden-pavement-background_87918-185.jpg");
+   background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    background-color: rgba(222, 218, 218, 0.8);
+}
+.formBody{
+    padding: 4%;
+}
+header{
+    padding:1% 4%;
+    background-color: #FAD6A5;
+}
+section{
+    margin-bottom: 10px;
+}
+button{
+    margin: 10px auto;
+    width: 100%;
+    background-color: #F55050;
+    color: white;
+    padding: 3%;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+}

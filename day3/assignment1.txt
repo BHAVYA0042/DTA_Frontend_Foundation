@@ -1,0 +1,8 @@
+1. Why do we use value attribute of <option> tag?
+Answer-- It specifies the value that is to be sent while choosing the option.
+
+2. What is <input type="hidden"  />  ? Why do we use?
+Answer-- This is used to send data to server which you do not wish the user to see. It is hidden to the user but value is sent on submit.Example: Putting cutomerID or employeeID as hidden. As these IDs are not essential info for user but is essential for server.
+
+3. Diff. between  <input type="submit"  />   and <button></button>  ?
+Answer-- button tag can also include images as content while <input type="submit"  /> can only have text as content.

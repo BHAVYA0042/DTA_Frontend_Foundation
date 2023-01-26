@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+    <!-- <link rel="stylesheet" href="https://kit.fontawesome.com/395f33a67b.css" crossorigin="anonymous"> -->
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/395f33a67b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrap">
+    <form action="mapping.html" id="form1">
+        <p class="top">
+            <span><i class="fa-solid fa-lock" style="margin-right: 15px"></i></span>
+             This is a secure 128-bit SSL Encrypted Payment.You're safe.
+        </p>
+        <div class="rest">
+            <div>
+                <input type="radio" name="option" />
+                <label for="option">Credit Card (Visa, MasterCard) <img src="images/visa.png" alt=""> <img src="images/master-card-icon-0.png" alt=""></label>
+                <input type="radio" name="option" />
+                <label for="option">PayPal <img src="images/paypal-icon-5.png" alt=""> </label>
+            </div>
+
+            <div>
+                <label for="CardNumber">Card Number <small>The 16 digits on front of your card</small></label>
+                <input type="text" name="CardNumber" size="60" maxlength="16" >
+            </div>
+            
+            <div class="expiry">
+                <div class="first">
+                    <label for="exp_date">Expiry Date</label><br/>
+                    <input type="month" name="exp_date" />
+                </div>
+            
+
+                <div class="second">
+                    <span>
+                        <label for="cvv">CVV2/CVC2</label><br/>
+                        <input type="password" name="cvv" size="8" maxlength="3"/>
+                    </span>
+                    
+                    <small>The last 3 digits displayed on your card</small>
+                </div>
+                
+            </div>
+
+            <div>
+                <label for="FullName">Full Name on Card</label><br/>
+                <input type="text" name="FullName" size="60">
+            </div>
+        </div>
+        <p class="bottom">
+             You will be charged $29 per month.
+        </p>
+    </form>
+    <button form="form1">Complete Transaction</button>
+    </div>
+
+</body>
+</html>
