@@ -1,0 +1,21 @@
+1. Can we apply more than one css class to html tags?  If yes, how to implement?
+Answer-- Yes, we can. By adding classes with a space between them. For ex. <div class="c1 c2 c3"></div> This div element has 3 classes c1,c2 and c3.
+2.  How to hide an element using CSS?
+Answer-- We can hide elements by various methods:
+	1) visibility:hidden;  This hides the element but the space is preserved.
+	2) display:none;  This hides the element as well as removes the space.
+	3) position:absolute; Put extreme positions that are out for screen.
+	4) opacity:0;
+3. How to implement following requirements in CSS3 (As per the image):
+		a. Apply space between words
+		Answer-- word-spacing
+		b. Apply space between letters
+		Answer-- letter-spacing
+		c. Apply shadow for each character in the text
+		Answer-- text-shadow: 5px 5px 2px rgba(0,0,0,0.3);
+		d. Other requirements as per the image
+		Answer-- p::first-letter{
+					font-size:25px;
+					font-style:italic;
+					color:blue;
+					}

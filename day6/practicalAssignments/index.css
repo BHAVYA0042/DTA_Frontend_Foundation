@@ -1,0 +1,38 @@
+.gallery{
+    /* width: 680px; */
+    /* margin: auto; */
+    padding: 0 290px;
+    column-count: 2;
+    column-gap: 10px;
+}
+img{
+    border: 2px solid #000000;
+    margin-bottom: 5px;
+}
+.i1{
+    border-bottom-right-radius:50px ;
+}
+.i2{
+    border-top-right-radius:50px ;
+}
+.i3{
+    border-bottom-left-radius:50px ;
+}
+.i4{
+    border-top-left-radius:50px ;
+}
+
+
+
+.anime p{
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    position: relative;
+    animation: mm_move 5s ;
+}
+@keyframes mm_move{
+    from{left: 0px;}
+    to{left: 300px;}
+}
+
