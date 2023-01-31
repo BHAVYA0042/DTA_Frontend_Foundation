@@ -1,0 +1,44 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 2px solid black;
+    width: 40%;
+    padding: 20px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    /* justify-content: space-around; */
+}
+div >*{
+    margin-bottom: 5px;
+}
+.agree{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+sup{
+    position: relative;
+    top: 3px;
+    color: red;
+}
+input[type=text]{
+    padding: 1.5% 2%;
+}
+select{
+    padding: 1.5% 2%;
+}
+section{
+    display: flex;
+    align-items:flex-start;
+}
+button{
+    background-color: #1C82AD;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
