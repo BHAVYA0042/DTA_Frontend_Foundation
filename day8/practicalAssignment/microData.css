@@ -1,0 +1,14 @@
+section{
+    height:50px;
+    width:50px;
+    background-color:green
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+p span{
+    font-size: 20px;
+    color: red;
+}

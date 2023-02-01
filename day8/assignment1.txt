@@ -1,0 +1,13 @@
+What is the use of "list" attribute?
+Answer-- Gives a list of pre-defined option, and user can add a value by their own unlike select-option where user can only select a value.
+Why do we use <datalist> tag in html ?
+Answer-- The <datalist> tag actually provides options for the list attribute.
+datalist id should be equal to <input> elements's list attribute to link them.
+
+What is Web Crawler?
+Answer--A web crawler is a type of bot that is typically operated by search engines like Google and Bing.
+ purpose is to index the content of websites all across the Internet so that those websites can appear in search engine results.
+
+What are backlinks?
+Answer--Backlinks or “incoming links” are links from one website to a page on another website.
+Google and other major search engines consider backlinks “votes” for a specific page. Pages with a high number of backlinks tend to have high organic search engine rankings.
