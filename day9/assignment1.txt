@@ -1,0 +1,15 @@
+What is JSON?
+Answer--JSON is a file format used for transporting and storing data.Mostly used for sending data from server to the web page.
+
+What is Object? What is Array in JavaScript?
+Answer--JS objects are containers for named values called properties.They can also have methods.
+	An array is an ordered collection of data. It can have different types of data.
+
+var employee={empno:20,empname:"Rahul",job:"Analyst",salary:100000,deptno:3002}
+
+
+What is JSON.stringify()?
+Answer--The JSON.stringify() static method converts a JavaScript value to a JSON string.
+
+What is JSON.parse()?
+ static method parses a JSON string, constructing the JavaScript.
