@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Please enter your data.</h1>
+        <form action="result.html">
+            <section>
+                <label for="Fname">Enter your Name</label>
+                <input id="i1" type="text" placeholder="Enter Your Name" name="Fname" autofocus autocomplete>
+            </section>
+            <section>
+                <label for="jDate">Enter your Joining Date</label>
+                <input id="i2" type="date" name="jDate">
+            </section>
+            <section>
+                <label for="favcolor">Enter your favourite color</label>
+                <input id="i3" type="color" id="favcolor" name="favcolor" value="#ff0000">
+            </section>
+            
+            <button onclick="submitData(event)">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
