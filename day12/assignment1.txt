@@ -1,0 +1,9 @@
+1.  What is clearfix class in bootstrap? Why do we use it?
+Answer-- 
+2.  How to hide the html tags using Bootstrap? Implement an example?
+Answer-- Apply class "d-none" to html tags.
+3.  What is spinner? How to create spinner using Boostrap?
+Answer-- Spinner can be used to show a loading sign to the user while data gets loaded.
+<div class="spinner-border" role="status">
+  	<span class="visually-hidden">Loading...</span>
+</div>
