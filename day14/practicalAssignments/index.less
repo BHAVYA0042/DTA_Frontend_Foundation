@@ -1,0 +1,106 @@
+@import 'header.less';
+
+body{
+    margin: 0;
+}
+.divStyle(@bgColor){
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background-color: @bgColor;
+    display: flex;
+    align-items: center;
+    padding: 3% 0 ;
+}
+.buttonStyle(){
+    padding:1% 2%;
+    width: 50%;
+    color: black;
+    border-radius: 10px;
+}
+
+.imgBasicStyle(){
+    margin-top: 20px;
+    border: 2px solid green;
+    width: 300px;
+    height: 300px;
+}
+
+.imgStyle(@shape) when (@shape="circle"){
+    border-radius: 50%;
+}
+.imgStyle(@shape) when (@shape="rectangle"){
+    width: 200px;
+}
+// .imgStyle(@shape) when (@shape=="circle"){
+    
+// }
+/////////////////MAIN STYLES//////////////
+.tabs{
+    .divStyle(aliceblue);
+
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+a{
+    color: black;
+    margin-bottom: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    &:hover{
+        text-decoration: underline;
+        font-weight: 600;
+    }
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.imageOp{
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    .divStyle(yellow);
+
+}
+img{
+    .imgBasicStyle();
+}
+.square{
+
+}
+.rectangle{
+    .imgStyle('rectangle');
+}
+.circle{
+    .imgStyle('circle');
+}
+
+.normal{
+    .buttonStyle();
+}
+.buttons{
+    .divStyle(beige);
+    flex-direction: column;
+
+}
+.fancyButton{
+    .buttonStyle();
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    &:hover{
+        background-color: white;
+        color: black;
+        width: 250px;
+        text-transform: uppercase;
+    }
+}
