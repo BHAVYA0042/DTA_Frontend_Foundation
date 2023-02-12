@@ -1,0 +1,9 @@
+1. What is validations in client side programming?
+Answer-- Client-side validation is an initial check on the data.By catching invalid data on the client-side, the user can fix it straight away.
+2. Why do we perform validation?
+Answer-- We want to get the right data, in the right format.
+		 Our applications won't work properly if our users' data is stored in the wrong format, is incorrect, or is omitted altogether.
+	We want to protect our users' data. 
+		Forcing our users to enter secure passwords makes it easier to protect their account information.
+	We want to protect ourselves. 
+		There are many ways that malicious users can misuse unprotected forms to damage the application.
