@@ -1,0 +1,11 @@
+How to add or remove css classes to html elements using js?
+Answer--
+	By using classList.add or classList.remove.
+	By assigning a value to element.className, this will overwrite all existing classes.
+	By using setAttribute(attributeName,attributeValue)
+
+What is CDN?What are the advantages of using CDN?
+Answer-- A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content.
+
+Q.how to justify text align in bootstrap?
+Answer--	use class text-justify.
