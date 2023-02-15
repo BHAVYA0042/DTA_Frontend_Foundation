@@ -1,0 +1,21 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    padding: 2%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin:10px 0;
+}
+input{
+    padding: 2%;
+}
+span{
+    font-weight: 600;
+    color: red;
+    /* visibility: none; */
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="validation.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <section class="ip">
+            <input type="text" name="cName" placeholder="Enter Customer Name" />
+            <span class="errorLine" id="Ne"></span>
+        </section>
+
+        <section class="ip">
+            <input type="text" name="sourceSt" placeholder="Source station" />
+            <span class="errorLine" id="Se"></span>
+        </section>
+
+        <section class="ip">
+            <input type="text" name="destSt" placeholder="Destination station" />
+            <span class="errorLine" id="De"></span>
+        </section>
+
+        <section class="ip">
+            <input type="text" name="contact" placeholder="Contact Number.." />
+            <span class="errorLine" id="Ce"></span>
+        </section>
+
+        <section class="ip">
+            <input type="text" name="email" placeholder="Enter your email.." />
+            <span class="errorLine" id="Ee"></span>
+        </section>
+
+        <button id='b1' onclick="submitData(event)">Submit</button>
+    </form>
+    <script src="validation.js"></script>
+</body>
+</html>

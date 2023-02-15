@@ -1,0 +1,14 @@
+What is BOM? Difference between BOM and DOM?
+Answer--  The Browser Object Model (BOM) in JavaScript includes the properties and methods for JavaScript to interact with the web browser.
+ BOM provides you with a window objects, for example, to show the width and height of the window.
+the document object model, represents the contents of the page. You can manipulate it using javascript.
+
+What is event.preventDefault()?
+Answer--The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.
+ It prevents the default function of the webpage i.e to reload. It prevents page reload on button click.
+
+Find deatils about following methods:
+push()-->adds new item to end of the array
+pop()-->removes last element of the array
+splice()-->adds or removes items from array from particular index. splice(2,2)--> remove 2 items from index 2.
+						splice(2,0,item1,item2)--> this will add item1 and item2 at index2.
