@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment3.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="assign1">
+        <h1>EVEN NUMBERS ASSIGNMENT</h1>
+        <form>
+            <textarea name="numbers" id="numIp" cols="60" rows="4" placeholder="Please enter comma seperated numbers."></textarea>
+            <!-- <textarea  col="4" row="3" name="numbers" /> -->
+            <button onclick="numberInput(event)">SUBMIT</button>
+            <span id="result"></span>
+        </form>
+    </div>
+
+    <div class="assign2">
+        <h1>POWER VALUE ASSIGNMENT</h1>
+        <form>
+            <input type="number" name="fN" id="firstNumber">
+            <input type="number" name="lN" id="lastNumber">
+            <button onclick="f_power(event)">SUBMIT</button>
+            <span id="result2"></span>
+        </form>
+    </div>
+
+    <div class="assign3">
+        <h1>STRING ASSIGNMENT</h1>
+        <form >
+            <input type="text" name="word" id="sIp" placeholder="Enter string..." />
+            <button onclick="f_count(event)">SUBMIT</button>
+            <span id="result3"></span>
+        </form>
+    </div>
+    <script src="assignment3.js"></script>
+</body>
+</html>

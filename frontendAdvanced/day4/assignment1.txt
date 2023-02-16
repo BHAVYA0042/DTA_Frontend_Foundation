@@ -1,0 +1,8 @@
+What is map() method in array? How to use map() method?
+Answer--map() creates a new array from calling a function for every array element.
+	It calls a function once for each element in an array and does not change the original array
+const numbers = [65, 44, 12, 4];
+const newArr = numbers.map(myFunction);
+function myFunction(num) {
+  return num;
+}.
