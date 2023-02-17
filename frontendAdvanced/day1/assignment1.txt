@@ -1,0 +1,24 @@
+1. What are the popup boxes in javascript?
+Answer-->In Javascript, popup boxes are used to display the message or notification to the user. 
+	There are three types of pop-up boxes in JavaScript namely Alert Box, Confirm Box and Prompt Box
+2. What is JavaScript engine for Safari?
+Answer-->JavaScript is not understandable by computer but the only browser understands JavaScript. So, we need a program to convert our JavaScript program into computer-understandable language. Javascript Core Webkit is the Js engine for Safari.
+3.  Test the following requirement using JavaScript
+
+		a.  Create two separate *.js files (Names :  ClientScripts1.js, ClientScripts2.js)
+		The files work as expected.
+		b.  Write some messages using alert() .  Message should contains the file name
+		
+		c.   Import the above js files in other *.html document and observe.
+		
+4.   Do some changes and observe	
+		a.  Give some wrong file name while import and observe the messages in console window
+		Gives a script not found error.
+		b.  Is  Filename case sensitive check practically?		
+		No, they are not.
+		
+5.  What are the key differences between Java and JavaScript?
+Java is a strongly typed language and variables must be declared first to use in the program. WHERE AS JavaScript is a loosely typed language and has a more relaxed syntax and rules.
+Java is an object-oriented programming language.	WHERE AS JavaScript is an object-based scripting language.
+Java supports multithreading. WHERE AS  Javascript doesn’t support multi-threading.
+

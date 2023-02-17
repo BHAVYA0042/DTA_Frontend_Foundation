@@ -1,0 +1,13 @@
+1. Is it possible to disable JavaScript in browser?  If yes, How to disable javascript in browser?
+Answer -->Yes, it is possible to do so. We can open the dev tools and use shortuct Ctrl+Shift+P. This will open the command menu, search for Disable Javascript option. Clicking on this will disable the js till dev tools are open.
+2. What is the difference between undefined and not defined in JavaScript?
+Answer-->If the variable name which is being accessed doesn’t exist in memory space then it would be not defined, 
+and if exists in memory space but hasn’t been assigned any value till now, then it would be undefined.
+3. Difference between ==  and ===?
+Answer-->== is equality and it allows same values of even different data types to be true.
+	=== is strict equality and allows same values of same data types.
+4. What does the isNaN() function?
+Answer-->It checks if a variable is Not a Number. If the variable is NaN, it returns true otherwise false.
+5. Difference between Client side JavaScript and Server side JavaScript?
+Answer-->Client-Side JavaScript (CSJS) -- an extended version of JavaScript that enables the enhancement and manipulation of web pages and client browsers
+	Server-Side JavaScript (SSJS) -- an extended version of JavaScript that enables back-end access to databases, file systems, and servers
