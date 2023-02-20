@@ -1,0 +1,21 @@
+@mixin iconStyle($iconColor,$disProp){
+    display: $disProp;
+    -webkit-text-stroke: 2px; 
+    margin-left: 5px;
+    color: $iconColor;
+}
+form{
+    border: 2px solid #64d5da;
+}
+.example{
+    display: flex;
+}
+.butto{
+    background-color: #64d5da;
+    border: none;
+    i{
+        @include iconStyle(white,block);
+        -webkit-text-stroke:1px;
+    }
+    
+}
