@@ -1,0 +1,6 @@
+1. How to hide html element using JavaScript?  jQuery? 
+Answer-->$('selector').hide()
+2.  How to select all textboxes using jQuery selector?
+Answer-->$('input[type=text]')
+3.  What is the difference between   "this" and  $(this) in jquery programming?
+Answer-->  this keyword is used to refer to the object it belongs to.  when this keyword is used inside $(), then it becomes a jQuery object, and now we can use all properties of jQuery on this method.

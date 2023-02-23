@@ -1,0 +1,33 @@
+div{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    /* align-items:center */
+    /* justify-content: space-between; */
+}
+h1,h3{
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: flex-end; */
+}
+button{
+    padding: 2% 4%;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:first-of-type{
+    background-color: green;
+}
+button:last-of-type{
+    background-color: red;
+}
