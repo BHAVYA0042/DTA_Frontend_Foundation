@@ -1,0 +1,16 @@
+.data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div{
+    border: 1px solid black;
+    padding: 2%;
+    min-width: 25%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#gender{
+    text-transform: capitalize;
+}

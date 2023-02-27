@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script  src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+</head>
+<body>
+    <form>
+        <input type="text" name="pName" id='ip1' placeholder="Product Name...">
+        <input type="text" name="price" id='ip2' placeholder="Enter price of one unit...">
+        <input type="number" name="quant" id='ip3' placeholder="Enter quantity...">
+        <button onclick="getData(event)">Get Amount</button>
+        <button onclick="formatData(event)">Format Table</button>
+    </form>
+
+    <table id="table1" border="2" width="400px">
+        <tr style="background-color: lightblue;">
+            <th>Product Name</th>
+            <th>Unit Price</th>
+            <th>Units In Stock</th>
+        </tr>
+    </table>
+    <script src="assignment3.js"></script>
+</body>
+</html>
