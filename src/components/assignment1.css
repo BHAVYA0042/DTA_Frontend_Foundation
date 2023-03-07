@@ -1,0 +1,19 @@
+.tableDiv{
+    width: 60%;
+    margin: auto;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    padding: 3%;
+    width: 100%;
+    text-align: center;
+}
+td,th{
+    padding: 2%;
+}
+tr{
+    margin-bottom: 10px;
+}

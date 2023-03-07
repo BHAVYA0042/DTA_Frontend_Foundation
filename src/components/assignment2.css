@@ -1,0 +1,27 @@
+.wrapper{
+    background-color: aliceblue;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    min-width: 200px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3%;
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+span i{
+    color: green;
+}
+button{
+    margin-top: 20px;
+}
